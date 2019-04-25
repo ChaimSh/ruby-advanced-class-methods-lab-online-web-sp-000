@@ -60,6 +60,7 @@ def self.create_from_filename(name)
 song = self.new
 song.artist_name = artist
 song.name = song_name
+@@all << song
 song
 
 end
