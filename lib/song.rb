@@ -58,10 +58,10 @@ def self.new_from_filename(filename)
     artist = title[0]
     song_name, extension = title[1].split(".")
 
-     song = self.new 
-    song.artist_name = artist 
-    song.name = song_name 
-    song 
+     song = self.new
+    song.artist_name = artist
+    song.name = song_name
+    song
   end
 
 def self.destroy_all
