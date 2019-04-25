@@ -57,7 +57,7 @@ def self.create_from_filename(name)
   artist = title[0]
   song_name, extension = title[1].split(".")
 
-song = self.save
+song = self.class.save
 song.artist_name = artist
 song.name = song_name
 song
