@@ -46,8 +46,8 @@ a = t[0]
 b, c = t[1].split(" . ")
 
 song = self.new
-song.artist = a
-song.title = b
+song.a = a
+song.t = b
 song
 end
 
