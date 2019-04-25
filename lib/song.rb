@@ -41,13 +41,13 @@ def self.alphabetical
 end
 
 def self.new_from_filename(name)
-t = name.split (" - ")
-a = t[0]
-b, c = t[1].split(" . ")
+title = name.split (" - ")
+artist = title[0]
+b, c = title[1].split(" . ")
 
 song = self.new
-song.a = a
-song.t = b
+song.artist = artist
+song.title = b
 song
 end
 
